@@ -1,15 +1,5 @@
 require 'rails_helper'
 
-
-# describe 'User can create location' do
-#
-#   scenario 'User can go to location/new page' do
-#
-#     visit '/'
-#
-#     expect(page).to have_content("Locations")
-#
-#   end
  describe 'User can create location' do
 
   scenario 'User can go to location/new page' do
@@ -20,7 +10,7 @@ require 'rails_helper'
 
      expect(page).to have_content "New Location"
 
-  
+
       fill_in "Name", with: "Nick K"
       fill_in "Address", with: "1234 Happy Lane"
       fill_in "Zipcode", with: "80205"
@@ -30,6 +20,4 @@ require 'rails_helper'
     expect(page).to have_content "Nick K"
 
   end
-
-
 end

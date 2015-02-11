@@ -12,7 +12,6 @@ describe 'User can create event' do
 
     fill_in "Description", with: "Party"
     fill_in "Date", with: "12-31-99"
-    # check "Requires id", with: true
 
     click_button "Create Event"
 
