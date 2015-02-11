@@ -33,7 +33,7 @@ Capybara cheat sheet: https://gist.github.com/zhengjia/428105
 
 ###### Home page
 - Users can visit homepage and see Locations
-
+  
 
 
 ###### Locations
