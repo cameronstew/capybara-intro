@@ -18,7 +18,7 @@ require 'rails_helper'
 
     click_link("New Location")
 
-    # expect(page).to have_content "New Location"
+     expect(page).to have_content "New Location"
 
   end
 
